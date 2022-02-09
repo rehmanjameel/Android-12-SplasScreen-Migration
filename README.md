@@ -1,5 +1,4 @@
 # Android-12-SplasScreen-Migration
-# Android-12-SplasScreen-Migration
 1. Add the Android 12 Splash screen and ViewModel dependency
 ```kotlin
 
