@@ -1,4 +1,4 @@
-# Android-12-SplasScreen-Migration
+# Android-12-SplashScreen-Migration
 1. Add the Android 12 Splash screen and ViewModel dependency
 ```kotlin
 
@@ -7,7 +7,7 @@ implementation 'androidx.core:core-splashscreen:1.0.0-beta01'
 //Dependency for extending ViewModel class
 implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
 ``` 
-2. Create res file named 'splash' add the Splashsecreen Style
+2. Create res file named 'splash' add the Splashscreen Style
 ```kotlin
 
 //value/splash
@@ -45,7 +45,7 @@ implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0"
         # Required.
     </style>
    ```
-3. Replace the main theme in manifiest > application > theme and amnifest > activity > theme with new splash screen theme
+3. Replace the main theme in manifiest > application > theme and manifest > activity > theme with new splash screen theme
 ```kotlin
 
 android:theme="@style/Theme.App.Starting"
